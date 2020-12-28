@@ -51,8 +51,8 @@ void show_account(account a)
 }
 int main()
 {
-    fptr1=fopen("C:\\Users\\DELL\\Desktop\\C\\Billing system in c\\products.txt","r");
-    fptr2=fopen("C:\\Users\\DELL\\Desktop\\C\\Billing system in c\\customers.txt","a+");
+    fptr1=fopen("products.txt","r");
+    fptr2=fopen("customers.txt","a+");
     int bcode,flag,item;
 	float pric;
     char c[25];
